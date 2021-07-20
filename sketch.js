@@ -18,7 +18,7 @@ var gameOver, restart;
 
 
 function preload(){  
-  backgroundImg = loadImage("Background.png")
+  backgroundImg = loadImage("bgImage.jpg")
   
   trex_running = loadAnimation("TREX1.png","TREX2.png","TREX3.png","TREX4.png","TREX5.png");
   trex_collided = loadAnimation("TREX3.png");
